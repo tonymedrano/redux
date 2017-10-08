@@ -1,0 +1,22 @@
+{
+    "name": "redux",
+    "version": "1.0.0",
+    "description": "learning redux",
+    "main": "index.js",
+    "scripts": {
+        "start": "./node_modules/.bin/babel-node ./src/index.js"
+    },
+    "keywords": [
+        "js",
+        "redux",
+        "es6",
+        "etc"
+    ],
+    "author": "Tony Medrano",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-cli": "^6.24.0",
+        "babel-preset-latest": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1"
+    }
+}
