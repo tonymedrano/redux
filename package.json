@@ -1,10 +1,14 @@
 {
-    "name": "redux",
+    "name": "redux-app",
     "version": "1.0.0",
     "description": "learning redux",
     "main": "index.js",
     "scripts": {
-        "start": "./node_modules/.bin/babel-node ./src/index.js"
+        "start": "./node_modules/.bin/webpack-dev-server",
+        "challenge-a": "babel-node ./src/challenges/FETCH_RESORT_NAMES.js",
+        "challenge-b": "babel-node ./src/challenges/CANCEL_FETCHING.js",
+        "challenge-c": "babel-node ./src/challenges/CLEAR_SUGGESTIONS.js",
+        "challenge-d": "babel-node ./src/challenges/CHANGE_SUGGESTIONS.js"
     },
     "keywords": [
         "js",
@@ -16,7 +20,16 @@
     "license": "MIT",
     "devDependencies": {
         "babel-cli": "^6.24.0",
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
         "babel-preset-latest": "^6.24.1",
-        "babel-preset-stage-0": "^6.24.1"
+        "babel-preset-stage-0": "^6.24.1",
+        "json-loader": "^0.5.7",
+        "webpack": "^3.7.1",
+        "webpack-dev-server": "^2.9.2"
+    },
+    "dependencies": {
+        "expect": "^21.2.1",
+        "redux": "^3.7.2"
     }
 }

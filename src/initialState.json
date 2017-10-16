@@ -20,6 +20,8 @@
     ],
     "goal": 10,
     "errors": [],
-    "resortNames": false,
-    "suggestions": ["Squaw Valley", "Snowbird", "Stowe", "Steamaboat"]
+    "resortNames": {
+        "fetching": false,
+        "suggestions": ["Squaw Valley", "Snowbird", "Stowe", "Steamboat"]
+    }
 }
